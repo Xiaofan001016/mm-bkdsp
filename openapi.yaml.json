@@ -1,0 +1,194 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "爆款短视频大师知识库",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://raw.githubusercontent.com/Xiaofan001016/mm-bkdsp/main"
+    }
+  ],
+  "paths": {
+    "/Guide.md": {
+      "get": {
+        "operationId": "readGuide",
+        "summary": "知识库使用指南",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ViralTitles.md": {
+      "get": {
+        "operationId": "readViralTitles",
+        "summary": "爆款标题策略完整库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/ViralPsychology.md": {
+      "get": {
+        "operationId": "readViralPsychology",
+        "summary": "病毒传播心理学完整策略库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/AntiAIDetection.md": {
+      "get": {
+        "operationId": "readAntiAIDetection",
+        "summary": "反AI检测变形术完整方法库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/PersonalityDNA.md": {
+      "get": {
+        "operationId": "readPersonalityDNA",
+        "summary": "人格DNA建模完整数据库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/NLPDeepSynthesis.md": {
+      "get": {
+        "operationId": "readNLPDeepSynthesis",
+        "summary": "神经语言学深度合成库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/StreamOfConsciousness.md": {
+      "get": {
+        "operationId": "readStreamOfConsciousness",
+        "summary": "意识流模拟完整技术库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/CoverTitleAttraction.md": {
+      "get": {
+        "operationId": "readCoverTitleAttraction",
+        "summary": "封面标题极致吸引力库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/QuantumContentGen.md": {
+      "get": {
+        "operationId": "readQuantumContentGen",
+        "summary": "量子级内容生成完整算法库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/BannedWordsGuide.md": {
+      "get": {
+        "operationId": "readBannedWordsGuide",
+        "summary": "平台违规词汇规避完整库",
+        "responses": {
+          "200": {
+            "description": "OK",
+            "content": {
+              "text/plain": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
